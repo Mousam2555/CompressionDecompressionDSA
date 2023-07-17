@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Compression and Decompression Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Text Compression and Decompression Tool</h1>
+    <input type="file" id="fileInput" onchange="fileSelected(event)">
+    <button onclick="compress()">Compress</button>
+    <button onclick="decompress()">Decompress</button>
+    <br>
+    <textarea id="outputArea" rows="10" cols="50" readonly></textarea>
+  </div>
+
+  <script src="compression.js"></script>
+</body>
+</html>
